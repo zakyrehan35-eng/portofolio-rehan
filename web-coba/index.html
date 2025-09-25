@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio Rehan</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas id="bgCanvas"></canvas>
+  <!-- Navbar -->
+  <nav>
+    <h2 class="logo">Rehan<span>Dev</span></h2>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Projects</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+    <button id="darkToggle">🌙</button>
+  </nav>
+
+  <!-- Hero Section -->
+  <div class="container"container>
+    <img src="foto-rehan.jpg" alt="Foto Profil" class="profile-pic">
+    <h1>Halo, Gue <span>Rehan</span> 👋</h1>
+    <h2 class="typing"></h2>
+    <button id="btnKlik">🚀 Klik Aku</button>
+  </div>
+
+  <!-- Projects -->
+     <!-- About Section -->
+  <section class="about">
+    <h2>Tentang Gue</h2>
+    <p>
+      Halo, gue Rehan 👋. Gua adlah Seorang Mahasiswa UHAMKA. dan gua
+        suka bermain game , desain, sama suka dengan teknologi baru 🚀.
+    </p>
+  </section>
+
+  <section class="projects">
+    <h2>My Projects</h2>
+    <div class="cards">
+      <div class="card">📱 Aplikasi Mobile</div>
+      <div class="card">💻 Website Keren</div>
+      <div class="card">🎮 Game Sederhana</div>
+    </div>
+  </section>
+
+  <!-- Modal Popup -->
+  <div class="modal" id="myModal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>🔥 Mantap bro!</h2>
+      <p>Ini popup modal interaktif 🚀</p>
+    </div>
+  </div>
+
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact">
+    <h2>Contact Me</h2>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Nama" required>
+      <input type="email" id="email" placeholder="Email" required>
+      <textarea id="message" placeholder="Pesan" required></textarea>
+      <button type="submit">Kirim</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Rehan. All rights reserved.</p>
+    <p>
+        <a href="https://www.instagram.com/ean.zaky" target="_blank">Instagram</a> | 
+      <a href="#">GitHub</a> | 
+      <a href="#">LinkedIn</a>
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
